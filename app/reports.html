@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+	<title>Reports Page</title>
+	<script src="https://www.gstatic.com/firebasejs/4.13.0/firebase.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="reportstyle.css">
+</head>
+<body>
+	
+	<div id="report-table" class="container">
+		<div class="row">
+			<div class="col-md-11">
+				<h4>Reports</h4>
+				<h5><a href="skills.html">Skills Of TS Team</a></h5>
+			</div>
+			<div id="logout-btn" class="col-md-1">
+		    <button class="btn btn-sm btn-primary btn-block" type="submit" id="logout">Log Out</button>	
+			</div>
+		
+		</div>
+        <div class="row">
+        	<div class="col-md-10">
+        		<table>
+        			<thead class=".thead-dark">
+                          <tr>
+                          	<th>Process Documents</th>	
+                          </tr>
+        			</thead>
+        			<tbody>
+        				<tr>
+        					<td>Tech Screen Documents</td>
+        					<td><a class="a-padding" target="_blank" href="https://drive.google.com/drive/u/1/folders/1ZCXBgTPJoYz8RuHdhxYHk9VQiFP207Zs">Click Here</a></td>
+        				</tr>
+        				<tr>
+        					<td>TS Process Presentation</td>
+        					<td><a class="a-padding" target="_blank" href="https://drive.google.com/drive/u/1/folders/12FfSxZZ1glxMs2qT9wffxNBBvB8K6eAp">Click Here</a></td>
+        				</tr>
+        			</tbody>
+        		</table>
+        	</div>
+        </div>
+         <div class="row">
+        	<div class="col-md-6">
+        		<table>
+        			<thead class=".thead-dark">
+                          <tr>
+                          	<th>Criteria Documents</th>	
+                          </tr>
+        			</thead>
+        			<tbody>
+        				<tr>
+        					<td>TS Criteria Document</td>
+        					<td><a class="a-padding" target="_blank" href="https://drive.google.com/file/d/1GlcKhJJ4DU7NGqQr_7Fuw8shJDGvA9q0/view?ths=true">Click Here</a></td>
+        				</tr>
+        				<tr>
+        					<td>Business Analyst Criteria Documents</td>
+        					<td><a class="a-padding" target="_blank" href="https://drive.google.com/file/d/1ewN4KRmJ6GrT1gacqg_IzUxoIZnjQfCQ/view?ths=true">Click Here</a></td>
+        				</tr>
+        				<tr>
+        					<td>Aptitude Criteria Document</td>
+        					<td><a class="a-padding" target="_blank" href="https://drive.google.com/file/d/1t-ZJ9Zj0LDrQQ81sWwBd5RQoOYKBfoO4/view?ths=true">Click Here</a></td>
+        				</tr>
+        				<tr>
+        					<td>DB Admin Criteria Document</td>
+        					<td><a class="a-padding" target="_blank" href="https://drive.google.com/file/d/1ixjqdPNMDsgI7DOqke1QamekVMoK6z0G/view?ths=true">Click Here</a></td>
+        				</tr>
+        				<tr>
+        					<td>System Admin Criteria Document</td>
+        					<td><a class="a-padding" target="_blank" href="https://drive.google.com/file/d/1bI-d3l9PBbkDGqSweMYAmA_G7xOc88tU/view?ths=true">Click Here</a></td>
+        				</tr>
+        			</tbody>
+        		</table>
+        	</div>
+        	<div class="col-md-6">
+        		<table>
+        			<thead>
+        				<tr>
+        					<th>TS Reports</th>
+        				</tr>
+        			</thead>
+        			<tbody>
+        				<tr>
+        					<td>TS Pass % Weekly</td>
+        					<td><a class="a-padding" target="_blank" href="https://docs.google.com/spreadsheets/u/1/d/1rX81f2VeQRyOf-ipX_kI9Z0X9aDvq-sVPkfKZpeLxho/edit?ouid=114879172609984323297&usp=sheets_home&ths=true">Click Here</a></td>
+        				</tr>
+        				<tr>
+        					<td>TS Pass % Monthly</td>
+        					<td><a class="a-padding" target="_blank" href="https://docs.google.com/spreadsheets/d/1EL_RKHO6-eds-p50j8g-jL9cheAqc40PlqO2qTaAtQA/edit#gid=0">Click Here</a></td>
+        				</tr>
+        				<tr>
+        					<td>TS Volume Report Weekly</td>
+        					<td><a class="a-padding" target="_blank" href="https://docs.google.com/spreadsheets/d/1GCnLB9xpXCpB4ygYqGvt45PNL80XcmmgdngNSSY8F5g/edit#gid=1323576242">Click Here</a></td>
+        				</tr>
+        				<tr>
+        					<th>TS Productivity Reports</th>
+        				</tr>
+        				<tr>
+        					<td>Screener Productivity Report</td>
+        					<td><a class="a-padding" target="_blank" href="https://revature.my.salesforce.com/00O0H00000751dL">Click Here</a></td>
+        				</tr>
+        			</tbody>
+        		</table>
+        	</div>
+        </div>
+        <div class="row">
+        	<div class="col-md-8">
+        		<table>
+        			<thead>
+                          <tr>
+                          	<th>Special Batch Reports</th>
+                          </tr>
+        			</thead>
+        			<tbody>
+        				<tr>
+        					<td>Special Batch Volume Report</td>
+        					<td><a class="a-padding" target="_blank" href="https://revature.my.salesforce.com/00O0H000006NuHc">Click Here</a></td>
+        				</tr>
+        				<tr>
+        					<td>ITIS % Report</td>
+        					<td><a class="a-padding" target="_blank" href="https://revature.my.salesforce.com/00O0H0000078gRe">Click Here</a></td>
+        				</tr>
+        				<tr>
+        					<td>BA % Report 2018 Batch</td>
+        					<td><a class="a-padding" target="_blank" href="https://revature.my.salesforce.com/00O0H0000078gRo">Click Here</a></td>
+        				</tr>
+        			</tbody>
+        		</table>
+        	</div>
+        </div>
+
+</div>
+	<script src="reportscripts.js"></script>
+</body>
+</html>

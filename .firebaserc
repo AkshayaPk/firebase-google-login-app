@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "default": "reports-revature-project",
+    "production": "reports-revature-project"
+  }
+}
